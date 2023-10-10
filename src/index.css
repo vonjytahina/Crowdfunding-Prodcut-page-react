@@ -427,6 +427,10 @@
   margin-right: 20px;
 }
 
+.container .modals #no-reward .top .left .modal-name{
+  margin-top: 10px;
+}
+
 .container .modals .modal .top .left .modal-price {
   font-weight: 700;
   color: var(--primary-moderate-cyan);
