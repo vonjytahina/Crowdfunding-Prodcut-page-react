@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import CompletedModals from "./components/CompletedModals";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Modals from "./components/Modals";
+import Vignette from "./components/Vignette";
+import { ModalProvider } from "./context/ModalContext";
+import { ModalCompletedProvider } from "./context/ModalCompletedContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ModalProvider>
+      <ModalCompletedProvider>
+        <div className="App">
+          <div className="container">
+            <Header />
+            <Main />
+            <Vignette />
+            <Modals />
+            <CompletedModals />
+          </div>
+          <div className="attribution">
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a
+              href="https://www.frontendmentor.io/profile/vonjytahina"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Vonjy Tahina CHAN
+            </a>
+            .
+          </div>
+        </div>
+      </ModalCompletedProvider>
+    </ModalProvider>
   );
 }
 
