@@ -935,7 +935,6 @@ input[type=number]::-webkit-outer-spin-button {
     height: 380px;
     top: 140px;
     padding: 25px;
-    display: none;
   }
 
   .container .completed-modal h2 {
