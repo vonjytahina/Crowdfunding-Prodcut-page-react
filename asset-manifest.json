@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Crowdfunding-Prodcut-page-react/static/css/main.4ff70044.css",
+    "main.js": "/Crowdfunding-Prodcut-page-react/static/js/main.576c6b07.js",
+    "static/media/image-hero-desktop.jpg": "/Crowdfunding-Prodcut-page-react/static/media/image-hero-desktop.631209c1fe8e34fb78c2.jpg",
+    "static/media/image-hero-mobile.jpg": "/Crowdfunding-Prodcut-page-react/static/media/image-hero-mobile.d4f477d4cd11ac3a012f.jpg",
+    "index.html": "/Crowdfunding-Prodcut-page-react/index.html",
+    "main.4ff70044.css.map": "/Crowdfunding-Prodcut-page-react/static/css/main.4ff70044.css.map",
+    "main.576c6b07.js.map": "/Crowdfunding-Prodcut-page-react/static/js/main.576c6b07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ff70044.css",
+    "static/js/main.576c6b07.js"
+  ]
+}
